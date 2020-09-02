@@ -65,6 +65,7 @@ final class ProcessEnvironment
     static final int MIN_NAME_LENGTH = 0;
 
     static {
+        // test comment
         // We cache the C environment.  This means that subsequent calls
         // to putenv/setenv from C will not be visible from Java code.
         byte[][] environ = environ();
